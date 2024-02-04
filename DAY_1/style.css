@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fae1dd;
+}
+.container{
+    position: relative;
+}
+.valentines{
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    animation: up 5s linear infinite;
+}
+@keyframes up{
+    0%,
+    10%{
+        transform: translateY(100);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+}
