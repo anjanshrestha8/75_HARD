@@ -7,7 +7,7 @@ $(document).ready(function () {
           },
           "slow"
         );
-        console.log("over vayo");
+        
       })
       .mouseleave(function () {
         $(".card").stop().animate(
