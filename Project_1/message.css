@@ -5,11 +5,11 @@ body{
     height: 100vh;
     background-color:#e5a9f5;
 }
-.message{
+/* .message{
  
     width: 500px;
     height: 450px;
-    
+     */
 }
 marquee{
     height: 350px;
