@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: pink;
+    background-color:pink;
   }
 .wish marquee{
     font-family:  'Cheri';
@@ -18,6 +18,8 @@ body {
 .wish marquee span{
     color: red;
   }
+
+
   
   .container {
     position: relative;
@@ -124,7 +126,7 @@ body {
     z-index: 10;
   }
   
-  .front:before {
+.front:before {
     position: absolute;
     content: "";
     border-left: 300px solid #f8ad9d;
@@ -133,10 +135,9 @@ body {
     top: -95px;
     width: 0;
     height: 0;
-  }
+}
   
-
-  .shadow {
+.shadow {
     position: absolute;
     width: 330px;
     height: 25px;
@@ -147,6 +148,16 @@ body {
     animation: scale 3s linear infinite;
     z-index: -1;
   }
+  button{
+    background-color: #f08080;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    border:black;
+    margin-left: 10px;
+    text-decoration: wavy;
+  }
+
   
   
   @keyframes up {
@@ -160,7 +171,7 @@ body {
   }
   
 
-  @keyframes scale {
+@keyframes scale {
     0%,
     100% {
       transform: scaleX(1);
@@ -168,4 +179,4 @@ body {
     50% {
       transform: scaleX(0.85);
     }
-  }
+}
