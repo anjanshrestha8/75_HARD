@@ -1,0 +1,8 @@
+@import "./reset.css";
+
+.animation{
+    background-color: red;
+    display: grid;
+    align-items: center;
+    
+}

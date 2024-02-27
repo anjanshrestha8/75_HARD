@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(125, 163, 196); */
+}
+body {
+  background-color: rgb(125, 163, 196);
+}
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button-container {
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 15px;
+  padding: 1.2rem;
+  border-radius: 25px;
+}
+button {
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
